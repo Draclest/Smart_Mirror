@@ -186,7 +186,7 @@ app.use(function (req, res, next) {
  *        description: a single string is returned
  */
 app.get('/', function(req, res) {
-  var message = "Welcome to the Smart Mirror API!"
+  var message = "hello There"
   res.send(message);
 });
 
